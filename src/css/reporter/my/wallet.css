@@ -1,0 +1,118 @@
+.wallet{
+  background: url('../../../assets/reporter/moneyBackground.png') no-repeat top left;
+  background-size: 100%;
+}
+
+/* 头部 */
+.head{
+  display: flex;
+  width: calc(100% - 0.6rem);
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 1.2rem;
+  padding: 0.4rem 0.3rem 0;
+}
+
+.head>div{
+  flex:1;
+}
+
+.title h1{
+  font-size: 0.36rem;
+  font-weight: bold;
+  color: white;
+  vertical-align: middle;
+}
+
+.leftImg{
+  text-align: left;
+}
+
+.leftImg>div,.detailImg>div{
+  display: inline-block;
+}
+
+.leftImg img{
+  width: 0.18rem;
+  height: 0.3rem;
+  vertical-align: middle;
+}
+
+
+.detailImg{
+  text-align: right;
+}
+
+.detailImg img{
+  width: 0.36rem;
+  height: 0.38rem;
+  vertical-align: middle;
+}
+
+/* body */
+.middle{
+  margin-top: 0.3rem;
+  padding: 0 0.3rem;
+}
+
+.mid_back{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 0.1rem;
+  padding: 0.6rem 0 0.8rem;
+  font-size: 0;
+  box-shadow: 0 0 6px 0 rgba(51,51,51,0.1);
+}
+
+.mon_ing img{
+  width: 1.2rem;
+  height: 1.34rem;
+}
+
+.money{
+  padding: 0.25rem 0;
+  font-size: 0;
+}
+
+.money span{
+  font-weight: 700;
+  font-size: 0.3rem;
+  color: #333333;
+}
+
+.money h5{
+  font-weight: 700;
+  display: inline-block;
+  font-size: 0.6rem;
+  color: #333333;
+}
+
+.mon_message span{
+  font-size: 0.32rem;
+  color: #6d6d6d;
+}
+
+/* 提现 */
+.withdraw{
+  margin-top: 0.6rem;
+  padding: 0 0.3rem;
+}
+
+.withdraw>div{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.1rem;
+  height: 0.8rem;  
+  background:linear-gradient(to right, #249ffa, #38cffe);
+}
+
+.withdraw>div span{
+  font-size: 0.32rem;
+  color: white;
+}

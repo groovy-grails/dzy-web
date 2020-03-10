@@ -1,0 +1,6 @@
+{
+  "title":"全国退役模范单位 全国劳动模范",
+  "subTitle":"全国退役模范军人及个人",
+  "image":"https://mimg.127.net/m/lc/img/LoginBackgroundPic/2189/4/promPic.jpg",
+  "content":"client: when a new Client successfully connects and register itself to server, [connackSent event will be come after], arguments:clientclientReady: when a new Client received all its offline messages, it is ready, arguments:clientclientDisconnect: when a Client disconnects, arguments:client, it will be null if the message is published using publish. It is by design that the broker heartbeat will be on publish event, in this case client is nullack: when a packet published to a client is delivered successfully with QoS 1 or QoS 2, arguments:packet, this will be the original PUBLISH packet in QoS 1, and PUBREL in QoS 2"
+}

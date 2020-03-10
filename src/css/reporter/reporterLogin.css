@@ -1,0 +1,143 @@
+.reporterLogin,.reporterRegister{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(../../assets/login/reportBackground.jpg) no-repeat;
+  background-size: cover;
+  padding: 0.6rem 0;
+  box-sizing: border-box;
+}
+
+.roles{
+  width: 100%;
+  margin-bottom: 0.6rem;
+}
+
+.roles img{
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.roles span{
+  display: block;
+  font-size: 0.6rem;
+  color: white;
+}
+
+/* 输入信息 */
+.message{
+  margin-bottom: 1rem;
+  font-size: 0;
+}
+
+.message input{
+  display: block;
+  box-sizing: border-box;
+  width: 6.3rem;
+  height: 1rem;
+  border-radius: 1rem;
+  padding: 0 1rem;
+  background-color: #a0bffd;
+  font-size: 0.3rem;
+  color: white;
+}
+input::-webkit-input-placeholder {
+  color: rgba(255,255,255,0.6);
+  font-size: 0.3rem;
+}
+input::-moz-input-placeholder {
+  color: rgba(255,255,255,0.6);
+  font-size: 0.3rem;
+}
+input::-ms-input-placeholder {
+  color: rgba(255,255,255,0.6);
+  font-size: 0.3rem;
+}
+
+.number{
+  background: url(../../assets/login/number.png) no-repeat 0.4rem center;
+  background-size: 0.3rem 0.36rem;
+}
+
+.password{
+  background: url(../../assets/login/password.png) no-repeat 0.4rem center;
+  background-size: 0.3rem 0.36rem;
+}
+
+.idCard{
+  background: url(../../assets/login/idcard.png) no-repeat 0.4rem center;
+  background-size: 0.36rem 0.28rem;
+}
+
+.phoneDiv{
+  position: relative !important;
+}
+
+.phone{
+  padding: 0 2.3rem 0 1rem !important;
+  background: url(../../assets/login/phone.png) no-repeat 0.4rem center;
+  background-size: 0.24rem 0.36rem;
+}
+
+.obtain{
+  position: absolute;
+  right: 0.3rem;
+  top:0.18rem;
+  width: 1.2rem;
+  height: 0.32rem;
+  line-height: 0.32rem;
+  padding: 0.16rem 0.26rem; 
+  font-size: 0.24rem;
+  color: white;
+  background-color: #b9d2fd;
+  border-radius: 1rem;
+}
+
+.code{
+  width: 3rem !important;
+}
+
+.error{
+  position: relative;
+  display: inline-block;
+  height: 0.6rem;
+  min-width: 1rem;
+  line-height: 0.6rem;
+  color: red;
+  font-size: 0.24rem;
+}
+
+
+.login{
+  display: block;
+  width: 6.3rem;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  color: #1787d2;
+  font-size: 0.36rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+/* 底部 */
+.bottom{
+  display: flex;
+  justify-content: space-around;
+  width: 6.3rem;
+}
+
+.bottom a{
+  display: inline-block;
+  font-size: 0.28rem;
+  color: white;
+}
+
+
+
+
+
+

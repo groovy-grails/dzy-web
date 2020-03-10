@@ -1,0 +1,146 @@
+/* 头部 */
+.head {
+  position: fixed;
+  z-index: 9999;
+  width: calc(100% - 0.6rem);
+  background-color: white;
+  text-align: center;
+  height: 1.2rem;
+  padding: 0.4rem 0.3rem 0;
+}
+
+.title h1 {
+  width: 100%;
+  font-size: 0.36rem;
+  font-weight: bold;
+  color: black;
+  line-height: 1.2rem;
+}
+
+.leftImg {
+  position: absolute;
+  left: 0.3rem;
+  top:0.4rem;
+  height: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.leftImg img {
+  width: 0.18rem;
+  height: 0.3rem;
+}
+
+/* 占位符 */
+.station {
+  height: 1.6rem;
+  width: 100%;
+}
+
+/* middle */
+.middle{
+  font-size: 0;
+  padding: 0.4rem 0 0.6rem;
+}
+
+/* 查看更多 */
+.clue_more{
+  margin-top: 0.14rem;
+  font-size: 0;
+  padding: 0 0.3rem;
+}
+
+.clue_more>div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcfcfc;
+  padding: 0.2rem 0;
+  border-radius: 0.1rem;
+}
+
+.clue_more>div span{
+  font-size: 0.3rem;
+  color: #333333;
+}
+
+/* 举报对象 */
+.obj_top{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 0;
+  padding: 0 0.54rem;
+  margin-bottom: 0.3rem;
+}
+
+.obj_top h5{
+  
+  font-size: 0.32rem;
+  color: #333333;
+  font-weight: 700;
+}
+
+.obj_top img{
+  width: 0.45rem;
+  height: 0.45rem;
+}
+
+
+/* 相关信息 */
+.relatedInformation{
+  font-size: 0;
+  padding: 0 0.3rem
+}
+
+.clue{
+  margin-bottom: 0.4rem;
+  border-radius: 0.1rem;
+  padding: 0.25rem 0.25rem;
+  background-color: #fcfcfc;
+}
+
+.clue_t{
+  font-size: 0;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.clue_t h5{
+  display: inline-block;
+  font-size: 0.32rem;
+  color: #333333;
+  font-weight: 700;
+  width: 80%;
+  padding: 0.2rem 0.2rem 0.3rem;
+  box-sizing: border-box;
+}
+
+.clue_t span{
+    display: inline-block;
+    width: 20%;
+    padding-right: 0.2rem;
+    text-align: right;
+    font-size: 0.28rem;
+    color: #5999f8;
+    box-sizing: border-box;
+}
+
+
+.clue_input input,.clue_input textarea{
+  width: calc(100% - 0.4rem);
+  padding: 0.3rem 0.2rem 0.2rem;
+  font-size: 0.32rem;
+  color: #999999;
+  background-color: #fcfcfc;
+  border: none;
+}
+
+/* 店铺地址 */
+#clue_address{
+  height: 1rem;
+  resize: none;
+  line-height: 0.5rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-all;
+}

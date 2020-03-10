@@ -1,0 +1,183 @@
+/* 头部 */
+.head {
+  position: fixed;
+  z-index: 9999;
+  width: calc(100% - 0.6rem);
+  background-color: white;
+  text-align: center;
+  height: 1.2rem;
+  padding: 0.4rem 0.3rem 0;
+}
+
+.title h1 {
+  width: 100%;
+  font-size: 0.36rem;
+  font-weight: bold;
+  color: black;
+  line-height: 1.2rem;
+}
+
+.leftImg {
+  position: absolute;
+  left: 0.3rem;
+  top:0.4rem;
+  height: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.leftImg img {
+  width: 0.18rem;
+  height: 0.3rem;
+}
+
+/* 占位符 */
+.station {
+  height: 1.6rem;
+  width: 100%;
+}
+
+/* middle */
+.middle{
+  padding: 0.3rem 0.3rem;
+}
+
+.mid_back{
+  background-color: white;
+  border-radius: 0.1rem;
+  padding:0 1px;
+}
+
+.type{
+  position: relative;
+  padding: 0.4rem 0;
+  font-size: 0;
+}
+
+.type:after{
+  position: absolute;
+  left: 0.3rem;
+  bottom: 0;
+  content: " ";
+  display: block;
+  width: calc(100% - 0.6rem);
+  height: 1px;
+  background-color: #eeeeee;
+}
+
+.type>h5{
+  font-size: 0.36rem;
+  color: #333333;
+  margin-bottom: 0.3rem;
+  padding: 0 0.3rem;
+}
+
+.type_pay{
+  padding: 0 0.3rem;
+}
+
+.type_pay>div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 0 0.3rem 0.8rem;
+}
+
+
+.type_pay span{
+  color: #333333;
+  font-size: 0.3rem;
+}
+
+.type_pay img{
+  width: 0.48rem;
+  height: 0.34rem;
+}
+
+.wechat{
+  background: url('../../../assets/reporter/wecha.png') no-repeat left center;
+  background-size: 0.64rem 0.64rem;
+}
+
+.zfb{
+  background: url('../../../assets/reporter/zhifubao.png') no-repeat left center;
+  background-size: 0.64rem 0.64rem;
+}
+
+
+.money{
+  position: relative;
+  padding: 0.4rem 0;
+  font-size: 0;
+}
+
+.money:after{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #eeeeee;
+}
+
+.money h5{
+  font-size: 0.36rem;
+  color: #333333;
+  margin-bottom: 0.3rem;
+  padding: 0 0.3rem;
+}
+
+.number{
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  padding: 0 0.3rem;
+}
+
+.number i{
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: #333333;
+}
+
+.number input{
+  width: 100%;
+  padding: 0 0.2rem;
+  background-color: white;
+  font-size: 0.6rem;
+  font-weight: 700;
+  caret-color: #5999f8;
+}
+
+.message{
+  padding: 0.3rem;
+}
+
+.message span{
+  font-size: 0.3rem;
+  color: #c0c0c0;
+}
+
+.message i{
+  color: #5999f8;
+}
+
+.btn{
+  padding:0.4rem 0.3rem;
+}
+
+.btn>div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 0.8rem;
+  background-color: #5999f8;
+  border-radius: 0.1rem;
+}
+
+.btn span{
+  font-size: 0.32rem;
+  color: white;
+}

@@ -1,0 +1,16 @@
+{
+	"code":200,
+	"data":{
+    "totle":30,
+		"list":[{
+			"serviceId": "1",
+			"serviecName": "退役军人残疾等级评定审核"
+		},{
+			"serviceId": "2",
+			"serviecName": "新中国成立70周年文艺汇演"
+		},{
+			"serviceId": "3",
+			"serviecName": "转业干部安置工作"
+		}]
+	}
+}

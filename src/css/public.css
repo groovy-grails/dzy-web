@@ -1,0 +1,56 @@
+/* 触碰标签改变背景颜色 */
+.touched{
+  background-color: #e1e1e1;
+}
+
+/* 实现移动端一像素 */
+.underline{
+  position: relative;
+}
+.underline:not(:nth-last-of-type(1)):after{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #eeeeee;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5){
+  .item_detail:after,.money:after,.item:after,.caseName:after,.caseContent:after,.legal:after,.underline:after{
+    transform:scaleY(0.7);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2){
+  .item_detail:after,.money:after,.item:after,.caseName:after,.caseContent:after,.legal:after,.underline:after{
+    transform:scaleY(0.5);
+  }
+}
+
+
+
+/* 弹窗样式汇总 */
+
+.pop_b:after{
+content: " ";
+position: fixed;
+left: 0;
+top: 0;
+z-index: 9999;
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0,0.2);
+}
+
+/* 中间弹窗动画样式 */
+.fade-enter, .fade-leave-to{
+opacity: 0;
+}
+.fade-enter-active, .fade-leave-active{
+transition: all 0.2s linear;
+backface-visibility: hidden;
+}     
+
+

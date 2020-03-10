@@ -1,0 +1,129 @@
+/* 头部 */
+.head {
+  position: fixed;
+  z-index: 9999;
+  width: calc(100% - 0.6rem);
+  background-color: white;
+  text-align: center;
+  height: 1.2rem;
+  padding: 0.4rem 0.3rem 0;
+}
+
+.title h1 {
+  width: 100%;
+  font-size: 0.36rem;
+  font-weight: bold;
+  color: black;
+  line-height: 1.2rem;
+}
+
+.leftImg {
+  position: absolute;
+  left: 0.3rem;
+  top:0.4rem;
+  height: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.leftImg img {
+  width: 0.18rem;
+  height: 0.3rem;
+}
+
+/* 占位符 */
+.station {
+  height: 1.6rem;
+  width: 100%;
+}
+
+.middle{
+  margin-top: 0.05rem;
+  background-color: white;
+  padding: 0 0.3rem;
+  font-size: 0;
+}
+
+.item{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 0.6rem 0.3rem 0;
+  background: url('../../../assets/reporter/right.png') no-repeat right center;
+  background-size: 0.16rem 0.3rem;
+  font-size: 0;
+}
+
+.item:not(:last-child):after{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #eeeeee;
+}
+
+.item h5{
+  display: inline-block;
+  font-size: 0.3rem;
+  color: #333333;
+}
+
+
+.item span{
+  font-size: 0.3rem;
+  color: #999999;
+}
+
+.phone span{
+  padding-left: 0.4rem;
+  background: url('../../../assets/reporter/lock.png') no-repeat left center;
+  background-size: 0.24rem 0.28rem;
+}
+
+.out{
+  font-size: 0;
+  margin-top: 0.3rem;
+}
+
+.out>div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1rem;
+  text-align: center;
+  background-color: white;
+}
+
+.out>div span{
+  font-size: 0.3rem;
+  color: #333333;
+}
+
+.pop{
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.pop_back{
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 0.1rem;
+  padding: 0.4rem;
+  text-align: center;
+}
+
+.pop_back span{
+  font-size: 0.3rem;
+  color: white;
+}

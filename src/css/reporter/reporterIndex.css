@@ -1,0 +1,85 @@
+.reporterIndex{
+  background-color: #f1f1f1;
+}
+
+/* 头部 */
+.head{
+  position: fixed;
+  z-index: 9999;
+  display: flex;
+  width: calc(100% - 0.6rem);
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  text-align: center;
+  height: 1.2rem;
+  padding: 0.4rem 0.3rem 0;
+}
+
+.head>div{
+  flex: 1;
+}
+
+.title h1{
+  font-size: 0.36rem;
+  font-weight: bold;
+  color: black;
+  vertical-align: middle;
+}
+
+
+.searchImg>div,.addImg>div{
+  display: inline-block;
+}
+
+.searchImg{
+  text-align: left;
+}
+
+.searchImg img{
+  width: 0.38rem;
+  height: 0.44rem;
+  vertical-align: middle;
+}
+
+.addImg{
+  text-align: right;
+}
+
+.addImg img{
+  width: 0.45rem;
+  height: 0.45rem;
+  vertical-align: middle;
+}
+
+/* 占位符 */
+.station{
+  height: 1.6rem;
+  width: 100%;
+}
+
+/* body */
+.middle{
+  padding: 0.4rem 0 1.5rem;
+}
+
+
+
+/* 暂无相关线索 */
+.no_data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no_data span{
+  position: fixed;
+  top: 50%;
+  height: 1rem;
+  line-height: 1rem;
+  margin-top: -0.5rem;
+  color: #cdcdcd;
+  font-size: 0.32rem;
+  display: inline-block;
+  
+}

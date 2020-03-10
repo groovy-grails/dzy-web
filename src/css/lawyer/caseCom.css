@@ -1,0 +1,85 @@
+.all_item{
+  height: 2.2rem;
+  margin-top: 0.4rem;
+  overflow: hidden;
+}
+
+.all_item:first-child{
+  margin-top: 0 !important;
+}
+
+.sroll{
+  width:auto;
+  height:2.4rem;
+  padding: 0 0.3rem;
+  font-size: 0;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+
+.item{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 2.2rem;
+  margin-right: 0.3rem;
+  padding: 0.34rem 0.84rem 0.34rem 0.24rem;
+  background-color: white;
+  font-size: 0em;
+  box-sizing: border-box;
+  border-radius: 0.1rem;
+}
+
+.item:before{
+  position: absolute;
+  z-index: 999;
+  right: 0.3rem;
+  top: 0;
+  content: " ";
+  display: inline-block;
+  width: 0.16rem;
+  height: 100%;
+  background: url('../../assets/reporter/right.png') no-repeat right center;
+  background-size: 0.16rem 0.3rem;
+}
+
+.item h5{
+  font-size: 0.32rem;
+  color: #333333;
+}
+
+.item p{
+  font-size: 0.26rem;
+  color: #999999;
+  padding: 0.24rem 0;
+}
+
+.item span{
+  font-size: 0.24rem;
+  color: #999999;
+}
+
+/* 删除 */
+.delete{
+  display: inline-block;
+  height: 2.2rem;
+  width: 1.4rem;
+  vertical-align: top;
+  background-color: red;
+  border-radius: 0.1rem;
+}
+
+.delete>div{
+  width:100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete span{
+  color: white;
+  font-size: 0.3rem;
+}

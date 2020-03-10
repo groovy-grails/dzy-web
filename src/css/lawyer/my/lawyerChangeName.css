@@ -1,0 +1,111 @@
+/* 头部 */
+.head {
+  position: fixed;
+  z-index: 9999;
+  width: calc(100% - 0.6rem);
+  background-color: white;
+  text-align: center;
+  height: 1.2rem;
+  padding: 0.4rem 0.3rem 0;
+}
+
+.title h1 {
+  width: 100%;
+  font-size: 0.36rem;
+  font-weight: bold;
+  color: black;
+  line-height: 1.2rem;
+}
+
+.leftImg {
+  position: absolute;
+  left: 0.3rem;
+  top:0.4rem;
+  height: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+.leftImg img {
+  width: 0.18rem;
+  height: 0.3rem;
+}
+
+.save{
+  position: absolute;
+  right: 0.3rem;
+  top:0.4rem;
+  height: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.save span{
+  font-size: 0.26rem;
+  padding: 0.1rem 0.3rem;
+  background-color: #e7e7e7;
+  color: #b4b4b4;
+  border-radius: 0.1rem;
+}
+
+.span_active{
+  color: white !important;
+  background-color: #5999f8 !important;
+}
+
+/* 占位符 */
+.station {
+  height: 1.6rem;
+  width: 100%;
+}
+
+.middle{
+  padding: 0 0.3rem;
+}
+
+.c_name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.6rem 0 0.2rem;
+  font-size: 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.c_name input{
+  width: 100%;
+  height: 0.8rem;
+  font-size: 0.3rem;
+  color: #333333;
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+  caret-color: #5999f8;
+}
+
+
+
+/* 弹窗 */
+.pop{
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pop_detail{
+  text-align: center;
+}
+
+.pop_detail span{
+  padding: 0.3rem 0.4rem;
+  color: white;
+  font-size: 0.3rem;
+  border-radius: 0.1rem;
+  background-color: #4b4b4b;
+}

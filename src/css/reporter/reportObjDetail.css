@@ -1,0 +1,220 @@
+/* 头部 */
+.head {
+  position: fixed;
+  z-index: 9999;
+  width: calc(100% - 0.6rem);
+  background-color: white;
+  text-align: center;
+  height: 1.2rem;
+  padding: 0.4rem 0.3rem 0;
+}
+
+.title h1 {
+  width: 100%;
+  font-size: 0.36rem;
+  font-weight: bold;
+  color: black;
+  line-height: 1.2rem;
+}
+
+.leftImg {
+  position: absolute;
+  left: 0.3rem;
+  top:0.4rem;
+  height: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.leftImg img {
+  width: 0.18rem;
+  height: 0.3rem;
+}
+
+/* 占位符 */
+.station {
+  height: 1.6rem;
+  width: 100%;
+}
+
+/* body */
+.middle {
+  padding: 0.4rem 0.3rem 0.6rem;
+}
+
+/* 标题 */
+.clue{
+  margin-top: 0.4rem;
+  border-radius: 0.1rem;
+  padding: 0.25rem 0.25rem;
+  background-color: #fcfcfc;
+}
+
+.clue:first-child{
+  margin-top: 0 !important;
+}
+
+.clue_t{
+  font-size: 0;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.clue_t h5{
+  display: inline-block;
+  font-size: 0.32rem;
+  color: #333333;
+  font-weight: 700;
+  width: 80%;
+  padding: 0.2rem 0.2rem 0.3rem;
+  box-sizing: border-box;
+}
+
+.clue_t span{
+    display: inline-block;
+    width: 20%;
+    padding-right: 0.2rem;
+    text-align: right;
+    font-size: 0.28rem;
+    color: #5999f8;
+    box-sizing: border-box;
+}
+
+
+.clue_input input,.clue_input textarea{
+  width: calc(100% - 0.4rem);
+  padding: 0.3rem 0.2rem 0.2rem;
+  font-size: 0.32rem;
+  color: #999999;
+  background-color: #fcfcfc;
+  border: none;
+}
+
+/* 内容 */
+#clue_content{
+  height: 2rem;
+  resize: none;
+  line-height: 0.5rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+
+/* 附件上传 */
+.area {
+  display: inline-block;
+  padding: 0.3rem 0;
+  box-sizing: border-box;
+}
+
+.area_flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pic_item {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0.3rem;
+  margin-right: 0.4rem;
+}
+
+.pic_item:nth-of-type(4n) {
+  margin-right: 0rem;
+}
+.pic_item:nth-last-child(2),
+.pic_item:nth-last-child(3),
+.pic_item:nth-last-child(4) {
+  margin-bottom: 0rem !important;
+}
+
+.pic_item_delete:after {
+  position: absolute;
+  top: -0.16rem;
+  right: -0.16rem;
+  width: 0.44rem;
+  height: 0.44rem;
+  content: " ";
+  background: url("../../assets/reporter/cancel.png") no-repeat;
+  background-size: 0.44rem;
+}
+
+.pic_item img {
+  width: 1.3rem;
+  height: 1.3rem;
+  vertical-align: top;
+}
+
+/* 添加图片 */
+.add_pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1.3rem;
+  height: 1.3rem;
+  border: 1px dashed rgba(153,153,153,0.6);
+  box-sizing: border-box;
+}
+
+.add_pic > div {
+  text-align: center;
+  font-size: 0;
+}
+
+.add_pic img {
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-bottom: 0.1rem;
+}
+
+.add_pic span {
+  display: block;
+  font-size: 0.18rem;
+  color: #999999;
+}
+
+/* 保存 */
+.sure {
+  margin-top: 0.6rem;
+  text-align: center;
+}
+
+.save {
+  display: inline-block;
+  width: 3.7rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  color: white;
+  font-size: 0.34rem;
+  background-color: #5999f8;
+  border-radius: 50rem;
+}
+
+/* 弹窗 */
+.pop{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.2);
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pop_body{
+  text-align: center;
+  font-size: 0;
+  background-color: white;
+  border-radius: 0.1rem;
+  padding: 0.3rem 0.6rem;
+}
+.pop_body span{
+  display: block;
+  font-size: 0.32rem;
+  color: #4b4b4b;
+}
+

@@ -1,0 +1,135 @@
+.head{
+  width: 100%;
+  background: url('../../../assets/lawyer/lawyerBackground1.png') no-repeat left top;
+  background-size: 100%;
+  padding: 2.25rem 0 0;
+}
+
+.head_back{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 6.7rem;
+  height: 2.5rem;
+  font-size: 0;
+  margin: auto;
+  background: url('../../../assets//lawyer/lawyerBackground2.png') no-repeat left top;
+  background-size: 100%; 
+}
+
+.head_cloum{
+  display: inline-block;
+}
+
+.user_img{
+  margin-top: -0.75rem;
+  margin-bottom: 0.2rem;
+}
+
+.user_img img{ 
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: top;
+}
+
+
+.head_detail{
+  font-size: 0;
+}
+.head_detail h5{
+  text-align: center;
+  font-size: 0.4rem;
+  color: white;
+  padding: 0 0 0.2rem;
+}
+
+.head_detail span{
+  font-size: 0.3rem;
+  color: white;
+}
+
+
+/* middle */
+.middle{
+  padding: 0.3rem 0 1.5rem;
+}
+
+.item{
+  height: 1rem;
+  font-size: 0;
+  background-color: white;
+  padding: 0 0.3rem;
+  color: #333333;
+  margin-bottom: 0.3rem;
+}
+
+.item:last-child{
+  margin-bottom: 0 !important;
+}
+
+.item>div{
+  position: relative;
+  height: 1rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 0.3rem;
+  padding-left: 0.8rem; 
+}
+
+.item>div:after{
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: inline-block;
+  content: " ";
+  width: 0.16rem;
+  height: 100%;
+  background: url('../../../assets/reporter/right.png') no-repeat right center;
+  background-size: 0.16rem 0.3rem;
+}
+
+/* 客服 */
+.kf_item{
+  position: relative;
+  margin-bottom: 0 !important;
+}
+
+.kf_item::after{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  content: " ";
+  height: 1px;
+  width: calc(100% - 1.1rem);
+  background-color: #eeeeee;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5){
+  .kf_item::after{
+    transform:scaleY(0.7);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2){
+  .kf_item::after{
+    transform:scaleY(0.5);
+  }
+}
+
+.kf{
+  background: url('../../../assets/reporter/kefu.png') no-repeat left center;
+  background-size: 0.55rem 0.44rem;
+}
+
+/* 反馈 */
+.feedback{
+  background: url('../../../assets/reporter/feedback.png') no-repeat left center;
+  background-size: 0.48rem 0.38rem;
+}
+
+ /* 设置 */
+.setting{
+  background: url('../../../assets/reporter/setting.png') no-repeat left center;
+  background-size: 0.5rem 0.5rem;
+}

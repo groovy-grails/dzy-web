@@ -1,0 +1,275 @@
+.addClue {
+  background-color: #f9f9f9;
+  padding-bottom: 0.8rem;
+  box-sizing: border-box;
+}
+/* 头部 */
+.head {
+  position: fixed;
+  z-index: 9999;
+  width: calc(100% - 0.6rem);
+  background-color: white;
+  text-align: center;
+  height: 1.2rem;
+  padding: 0.4rem 0.3rem 0;
+}
+
+.title h1 {
+  width: 100%;
+  font-size: 0.36rem;
+  font-weight: bold;
+  color: black;
+  line-height: 1.2rem;
+}
+
+.leftImg {
+  position: absolute;
+  left: 0.3rem;
+  top:0.4rem;
+  height: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.leftImg img {
+  width: 0.18rem;
+  height: 0.3rem;
+}
+
+/* 占位符 */
+.station {
+  height: 1.6rem;
+  width: 100%;
+}
+
+/* body */
+.middle {
+  padding: 0 0.3rem;
+}
+
+#clue_sheet label {
+  display: inline-block;
+  font-size: 0.3rem;
+  color: #333333;
+  padding: 0 0.2rem 0 0;
+  background: url("../../assets/reporter/xin.png") no-repeat right center;
+  background-size: 0.12rem;
+  margin-right: 0.2rem;
+  margin-left: 0.1rem;
+}
+
+#clue_sheet input {
+  width: 5.1rem;
+  height: 0.8rem;
+  background-color: #f9f9f9;
+  font-size: 0.3rem;
+  color: #333333;
+  padding: 0 0.3rem;
+  box-sizing: border-box;
+}
+
+.item{
+  position: relative;
+  font-size: 0;
+  padding: 0.3rem 0;
+  text-align: left;
+}
+
+.item:not(:nth-last-child(2)):after{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #dddddd;
+}
+
+/* 线索内容 */
+::-webkit-input-placeholder {
+  color: 999999;
+  font-size: 0.3rem;
+}
+::-moz-input-placeholder {
+  color: #999999;
+  font-size: 0.3rem;
+}
+::-ms-input-placeholder {
+  color: 999999;
+  font-size: 0.3rem;
+}
+
+.lead_content label,
+.lead_address label,
+.lead_picture label {
+  display: inline-block;
+  margin-top: 0.3rem;
+  vertical-align: top;
+}
+
+#clu_content,
+#clu_address {
+  width: 5.1rem;
+  height: 2.6rem;
+  font-size: 0.3rem;
+  color: #333333;
+  padding: 0.3rem 0.3rem;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  border: none;
+  line-height: 0.4rem;
+  resize: none;
+}
+
+/* 地址 */
+#clu_address {
+  height: 1.6rem;
+}
+
+/* 销量 */
+.lead_count label {
+  background: none !important;
+}
+
+.lead_count label:nth-of-type(2) {
+  margin-left: 0.2rem !important;
+}
+
+#clue_count {
+  width: 2.86rem !important;
+}
+
+/* 举报类型 */
+.lead_type {
+  text-align: left !important;
+}
+
+#clue_type{
+  position: relative;
+  display: inline-block;
+  max-width: 5.1rem;
+}
+
+.select_type {
+  display: inline-block;
+  padding: 0 0.3rem;
+  box-sizing: border-box;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.ul_type{
+  display: none;
+  position: absolute;
+  top:0.8rem;
+  left: 0;
+  z-index: 999;
+  width: 5.1rem;
+  background-color: #f1f1f1;
+  border-top: 1px solid rgba(255,255,255,0.4);
+
+}
+
+.ul_type li{
+ font-size: 0.3rem;
+ color:#333333;
+ padding: 0.3rem 0.25rem;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+ overflow: hidden;
+}
+
+.li_active{
+  background-color: rgba(0,0,0,0.2);
+}
+
+/* 附件上传 */
+.area {
+  display: inline-block;
+  padding: 0.3rem 0.2rem;
+  width: 5.1rem;
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+}
+
+.area_flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pic_item {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0.3rem;
+  margin-right: 0.4rem;
+}
+
+.pic_item:nth-of-type(3n) {
+  margin-right: 0rem;
+}
+.pic_item:nth-last-child(2),
+.pic_item:nth-last-child(3) {
+  margin-bottom: 0rem !important;
+}
+
+.pic_item::after {
+  position: absolute;
+  top: -0.16rem;
+  right: -0.16rem;
+  width: 0.44rem;
+  height: 0.44rem;
+  content: " ";
+  background: url("../../assets/reporter/cancel.png") no-repeat;
+  background-size: 0.44rem;
+}
+
+.pic_item img {
+  width: 1.3rem;
+  height: 1.3rem;
+  vertical-align: top;
+}
+
+/* 添加图片 */
+.add_pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1.3rem;
+  height: 1.3rem;
+  border: 1px dashed rgba(153,153,153,0.6);
+  box-sizing: border-box;
+}
+
+.add_pic > div {
+  text-align: center;
+  font-size: 0;
+}
+
+.add_pic img {
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-bottom: 0.1rem;
+}
+
+.add_pic span {
+  display: block;
+  font-size: 0.18rem;
+  color: #999999;
+}
+
+/* 确认添加 */
+.sure {
+  margin-top: 0.6rem !important;
+  text-align: center !important;
+}
+
+.submit {
+  width: 3.7rem !important;
+  color: white !important;
+  background-color: #5999f8 !important;
+  border-radius: 50rem;
+}
+

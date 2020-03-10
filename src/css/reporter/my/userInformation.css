@@ -1,0 +1,81 @@
+/* 头部 */
+.head {
+  position: fixed;
+  z-index: 9999;
+  width: calc(100% - 0.6rem);
+  background-color: white;
+  text-align: center;
+  height: 1.2rem;
+  padding: 0.4rem 0.3rem 0;
+}
+
+.title h1 {
+  width: 100%;
+  font-size: 0.36rem;
+  font-weight: bold;
+  color: black;
+  line-height: 1.2rem;
+}
+
+.leftImg {
+  position: absolute;
+  left: 0.3rem;
+  top:0.4rem;
+  height: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.leftImg img {
+  width: 0.18rem;
+  height: 0.3rem;
+}
+
+/* 占位符 */
+.station {
+  height: 1.6rem;
+  width: 100%;
+}
+
+.middle{
+  margin-top: 0.05rem;
+  padding: 0 0.3rem;
+  background-color: white;
+}
+
+.item{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 0.6rem 0.3rem 0;
+  background: url('../../../assets/reporter/right.png') no-repeat right center;
+  background-size: 0.16rem 0.3rem;
+}
+
+.item:not(:last-child):after{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #eeeeee;
+}
+
+.item h5{
+  display: inline-block;
+  font-size: 0.3rem;
+  color: #333333;
+}
+
+.item img{
+  width: 1rem;
+  height: 1rem;
+}
+
+.item span{
+  font-size: 0.3rem;
+  color: #999999;
+}

@@ -1,0 +1,139 @@
+/* 头部 */
+.head {
+  position: fixed;
+  z-index: 9999;
+  width: calc(100% - 0.6rem);
+  background-color: white;
+  text-align: center;
+  height: 1.2rem;
+  padding: 0.4rem 0.3rem 0;
+}
+
+.title h1 {
+  width: 100%;
+  font-size: 0.36rem;
+  font-weight: bold;
+  color: black;
+  line-height: 1.2rem;
+}
+
+.rightImg {
+  position: absolute;
+  left: 0.3rem;
+  top:0.4rem;
+  height: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.rightImg img {
+  width: 0.38rem;
+  height: 0.44rem;
+}
+
+/* 占位符 */
+.station {
+  height: 1.6rem;
+  width: 100%;
+}
+
+/* middle */
+.middle{
+  padding: 0.4rem 0 1.5rem;
+}
+
+.all_item{
+  height: 2.2rem;
+  margin-top: 0.4rem;
+  overflow: hidden;
+}
+
+.all_item:first-child{
+  margin-top: 0 !important;
+}
+
+.sroll{
+  width:auto;
+  height:2.4rem;
+  padding: 0 0.3rem;
+  font-size: 0;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+
+.item{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 2.2rem;
+  margin-right: 0.3rem;
+  padding: 0.34rem 0.84rem 0.34rem 0.24rem;
+  background-color: white;
+  font-size: 0em;
+  box-sizing: border-box;
+  border-radius: 0.1rem;
+}
+
+.item:before{
+  position: absolute;
+  z-index: 999;
+  right: 0.3rem;
+  top: 0;
+  content: " ";
+  display: inline-block;
+  width: 0.16rem;
+  height: 100%;
+  background: url('../../assets/reporter/right.png') no-repeat right center;
+  background-size: 0.16rem 0.3rem;
+}
+
+.item h5{
+  font-size: 0.32rem;
+  color: #333333;
+}
+
+.item p{
+  font-size: 0.26rem;
+  color: #999999;
+  padding: 0.24rem 0;
+}
+
+.item span{
+  font-size: 0.24rem;
+  color: #999999;
+}
+
+/* 删除 */
+.item_btn{
+  display: inline-block;
+  height: 2.2rem;
+  width: 1rem;
+  vertical-align: top;
+  background-color: #5999f8;
+  border-radius: 0.1rem;
+}
+
+.item_btn>div{
+  width:100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.2rem;
+  box-sizing: border-box;
+}
+
+.item_btn span{
+  color: white;
+  font-size: 0.28rem;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.new_case{
+  margin-right: 1px;
+  background-color: #42b983;
+}

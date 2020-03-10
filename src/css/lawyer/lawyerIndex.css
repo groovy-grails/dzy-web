@@ -1,0 +1,98 @@
+/* 头部 */
+.head {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  height: 1.2rem;
+  padding: 0.4rem 0 0;
+}
+
+.title h1 {
+  width: 100%;
+  font-size: 0.36rem;
+  font-weight: bold;
+  color: black;
+  line-height: 1.2rem;
+}
+
+.rightImg {
+  position: absolute;
+  left: 0.3rem;
+  top:0.4rem;
+  height: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.rightImg img {
+  width: 0.38rem;
+  height: 0.44rem;
+}
+
+.nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 1rem;
+}
+
+.nav ul li{
+  flex: 1;
+}
+
+.nav ul li a{
+  position: relative;
+  font-size: 0.32rem;
+  color: #a9a9a9;
+}
+
+.router-link-active{
+  color: #5999f8 !important;
+}
+
+.router-link-active:before{
+  position: absolute;
+  left: 10%;
+  bottom: -0.18rem;
+  content: ' ';
+  display: inline-block;
+  width: 80%;
+  height: 0.04rem;
+  background-color: #5999f8;
+  border-radius: 5px;
+}
+
+/* 占位符 */
+.station {
+  height: 2.6rem;
+  width: 100%;
+}
+
+/* body */
+.middle{
+  padding: 0.4rem 0 1.5rem;
+}
+
+
+
+/* 暂无相关案件 */
+.no_data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no_data span{
+  position: fixed;
+  top: 50%;
+  height: 1rem;
+  line-height: 1rem;
+  margin-top: -0.5rem;
+  color: #cdcdcd;
+  font-size: 0.32rem;
+  display: inline-block;
+  
+}

@@ -1,0 +1,180 @@
+/* 头部 */
+.head {
+  position: fixed;
+  z-index: 9999;
+  width: calc(100% - 0.6rem);
+  background-color: white;
+  text-align: center;
+  height: 1.2rem;
+  padding: 0.4rem 0.3rem 0;
+}
+
+.title h1 {
+  width: 100%;
+  font-size: 0.36rem;
+  font-weight: bold;
+  color: black;
+  line-height: 1.2rem;
+}
+
+.leftImg {
+  position: absolute;
+  left: 0.3rem;
+  top:0.4rem;
+  height: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.leftImg img {
+  width: 0.18rem;
+  height: 0.3rem;
+}
+
+/* 占位符 */
+.station {
+  height: 1.6rem;
+  width: 100%;
+}
+
+.middle{
+  padding: 0.2rem 0.3rem 0.3rem;
+}
+
+.mid_back{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 0;
+  padding: 0.8rem 0.3rem;
+  background-color: white;
+}
+
+.mid_top{
+  padding: 0 0.4rem;
+}
+
+.phone_type{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.phone_type>div{
+  display: inline-block;
+}
+
+.area{
+  padding: 0 0.2rem 0.1rem;
+  border-bottom: 1px solid #eeeeee;
+  vertical-align: bottom;
+  text-align: center;
+  margin-right: 0.3rem;
+}
+
+.area em{
+  font-size: 0.3rem;
+  color: #333333;
+}
+
+.area span{
+  font-size: 0.16rem;
+  color: #333333;
+  white-space: nowrap;
+}
+
+.phone {
+  padding: 0 0 0.2rem;
+  border-bottom: 1px solid #eeeeee;
+}
+
+
+.phone input{
+  width: 100%;
+  padding: 0 0.2rem;
+  font-size: 0.36rem;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.verification{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.6rem 0;
+}
+
+.code{
+  width: 2rem;
+  margin-right: 0.6rem;
+}
+
+.code input{
+  width: 100%;
+  background-color: #f1f1f1;
+  font-size: 0.32rem;
+  color: #333333;
+  padding: 0.2rem 0.2rem;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 0.1rem;
+}
+
+.btn_code span{
+  font-size: 0.32rem;
+  color: #5999f8; 
+}
+
+.btn{
+  width: 100%;
+  font-size: 0;
+}
+
+.btn>div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 0.8rem;
+  border-radius: 0.1rem;
+  background-color: #5999f8;
+}
+
+.btn>div span{
+  font-size: 0.3rem;
+  color: white;
+}
+
+.pop{
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.pop_back{
+  background-color: white;
+  border-radius: 0.1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.p_img{
+  margin-bottom: 0.4rem;
+}
+
+.p_img img{
+  width: 1.2rem;
+  height: 1.3rem;
+}
+
+.success_message span{
+  font-size: 0.3rem;
+  color: #333333;
+}

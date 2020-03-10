@@ -1,0 +1,51 @@
+.head{
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  width: calc(100% - 0.6rem);
+  height: 1.2rem;
+  padding: 0.4rem 0.3rem 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0;
+}
+
+.left_img img{
+  width: 0.32rem;
+  height: 0.26rem;
+}
+
+.input {
+  width: calc(100% - 0.6rem);
+  margin: 0 0.3rem;
+}
+
+.input input{
+  width: 100%;
+  font-size: 0.28rem;
+  color: #4b4b4b ;
+  background-color: #dddddd;
+  border-radius: 2rem;
+  padding: 0.2rem 0.3rem;
+  box-sizing: border-box;
+}
+
+.search_btn span{
+  color: #333333;
+  font-size: 0.3rem;
+  white-space: nowrap;
+}
+
+/* 站位 */
+.station{
+  height: 1.6rem;
+  width: 100%;
+}
+
+/* middle */
+.middle{
+  padding: 0.4rem 0 1.5rem;
+}
