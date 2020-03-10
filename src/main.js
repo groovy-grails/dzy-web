@@ -26,6 +26,12 @@ import Router from 'vue-router'
 import echarts from 'echarts'
 Vue.prototype.$echarts = echarts
 
+import './util/wordcloud/highcharts.js'
+import './util/wordcloud/wordcloud.js'
+import './util/wordcloud/exporting.js'
+import './util/wordcloud/export-data.js'
+import './util/wordcloud/accessibility.js'
+
 import '../node_modules/echarts/map/js/world.js' // 引入世界地图
 
 
