@@ -1,6 +1,6 @@
 <template>
   <div id="homepage">
-    <div class="title"></div>
+    <div @click="gotowd()" class="title">com</div>
     <chartsmap></chartsmap>
     <div class="title"></div>
     <chartspie></chartspie>
@@ -42,7 +42,7 @@ export default {
   methods: {
     gotowd(){
       this.$router.push({
-        name: 'chartsWordCloud'
+        name: 'chartsGuage'
       })
     },
 

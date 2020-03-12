@@ -13,3 +13,152 @@
   width:100%;
   height:50px;
 }
+
+.chart.com{
+  width: 90%;
+  height: 700px;
+}
+.inner div{
+  box-sizing:border-box;
+  -moz-box-sizing:border-box; /* Firefox */
+  -webkit-box-sizing:border-box; /* Safari */
+}
+.inner{
+  width:90%;
+  height: 700px;
+  margin:15px 30px;
+}
+.inner .top{
+  width:100%;
+  padding:10px 50px;
+}
+.inner .top .year{
+  display:block;
+  width:100%;
+  height:40px;
+}
+.inner .top .year .item{
+  float:left;
+  width:20%;
+  height:40px;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top:solid 1px #ccc;
+  border-bottom:solid 1px #ccc;
+  border-right:solid 1px #ccc;
+  position: relative;
+}
+.inner .top .year .item i{
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  background: #fff;
+  font-size: 18px;
+  display: inline-block;
+  font-family: "youdata";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  vertical-align: middle;
+  margin-bottom: 2px;
+  }
+.inner .top .year .item i:before,.inner .top .season_some .item i:before{
+  content: "\2714";
+}
+.inner .top .year .item.left,.inner .top .season_some .item.left{
+    border-radius: 4px 0px 0px 4px;
+    border-left:solid 1px #ccc;
+    border-top:solid 1px #ccc;
+    border-bottom:solid 1px #ccc;
+    border-right:solid 1px #ccc;
+}
+.inner .top .year .item.right,.inner .top .season_some .item.right{
+    border-radius: 0px 4px 4px 0px;
+    border-top:solid 1px #ccc;
+    border-bottom:solid 1px #ccc;
+    border-right:solid 1px #ccc;
+}
+.inner .top .season_some{
+  display:block;
+  width:100%;
+  height:40px;
+  margin-top:10px;
+}
+.inner .top .season_some .item{
+  float:left;
+  width:20%;
+  height:40px;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top:solid 1px #ccc;
+  border-bottom:solid 1px #ccc;
+  border-right:solid 1px #ccc;
+}
+.inner .top .season_some .item1{
+  float:right;
+  width:16%;
+  height:40px;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border:solid 1px #ccc;
+  border-radius:4px;
+}
+.inner .bottom{
+  display:block;
+  width:100%;
+}
+.inner .bottom .panel{
+  position: relative;
+  float:left;
+  width:calc(33.3% - 10px);
+  height:250px;
+  margin:20px 5px;
+  border:dashed 1px #60cafc;
+  border-radius: 4px;
+}
+.inner .bottom .panel .mid{
+  width: 100%;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.inner .bottom .panel .mid span{
+}
+.inner .bottom .panel .abs{
+  position: absolute;
+  width:100%;
+  height:40px;
+  top:-20px;
+  left:0;
+}
+.inner .bottom .panel .abs div{
+  margin:0 auto;
+  height:40px;
+  line-height: 40px;
+  width:180px;
+  border-radius: 4px;
+  background:#60cafc;
+  text-align: center;
+}
